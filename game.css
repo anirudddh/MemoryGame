@@ -1,0 +1,73 @@
+body {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    grid-row-gap: 30px;
+}
+
+#memory {
+    background: #123;
+    width: 800px;
+    height: 540px;
+    display: none;
+}
+
+#memory>div {
+    background: url(assets/q.png) no-repeat center;
+    border-radius: 15px;
+    border: #000 1px solid;
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    font-size: 64px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#start_button {
+    color: #fff !important;
+    background: #60a3bc;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 40px auto;
+    display: block;
+    font-size: 22px;
+}
+
+.heading {
+    margin: 30px auto 0 auto;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+#timer {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+#time, #moves{
+    display: inline;
+}
+
+.game_start {
+    display : grid;
+    grid-template-columns: 70% 30%;
+    grid-column-gap: 3rem;
+}
+
+
+.footer {
+  height: 50px;
+  background-color: var(--main-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: light-grey;
+  flex-direction: column;
+}
+
+.footer a {
+  color: light-grey;
+  }
